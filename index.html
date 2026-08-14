@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf6ff">
+  <meta name="description" content="Nexora — современное локальное приложение для ваших игр, приложений, HTML-проектов и файлов.">
+  <title>Nexora — твои проекты в одном месте</title>
+  <link rel="icon" href="./assets/nexora-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="Nexora">
+        <span class="brand-mark">N</span>
+        <span>Nexora</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Навигация">
+        <a href="#app">Приложение</a>
+        <a href="#features">Возможности</a>
+        <a href="#about">О Nexora</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="#app">Интерфейс</a>
+        <a class="btn btn-primary" href="./downloads/Nexora-Setup.exe" download>Скачать</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Nexora для Windows</div>
+          <h1>Все твои проекты.<br><span>В одном месте.</span></h1>
+          <p class="hero-text">Игры, приложения, сайты, HTML-проекты и фотографии — в одной локальной библиотеке с аккуратным интерфейсом и быстрым запуском.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-large" href="./downloads/Nexora-Setup.exe" download>Скачать Nexora</a>
+            <a class="btn btn-ghost btn-large" href="#app">Посмотреть интерфейс</a>
+          </div>
+          <div class="hero-meta">Локально · Windows · Без обязательного сервера</div>
+        </div>
+
+        <div class="hero-card reveal delay-1">
+          <div class="mini-orbit"></div>
+          <div class="hero-app-icon">N</div>
+          <div class="hero-card-title">Nexora</div>
+          <div class="hero-card-subtitle">Project library for Windows</div>
+          <div class="hero-mini-stats">
+            <div><strong>24</strong><span>проекта</span></div>
+            <div><strong>12</strong><span>игр</span></div>
+            <div><strong>∞</strong><span>идей</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase section" id="app">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Интерфейс Nexora</div>
+          <h2>Никакой лишней сложности.</h2>
+          <p>Так выглядит рабочее пространство Nexora: слева навигация, в центре проекты, справа — информация о выбранном проекте.</p>
+        </div>
+
+        <div class="app-window reveal delay-1">
+          <div class="window-bar">
+            <div class="window-brand"><span class="brand-mark small">N</span>Nexora</div>
+            <div class="window-search"><span>⌕</span><span>Поиск проектов...</span><kbd>Ctrl F</kbd></div>
+            <div class="window-controls"><i></i><i></i><i></i></div>
+          </div>
+
+          <div class="window-body">
+            <aside class="fake-sidebar">
+              <div class="side-caption">НАВИГАЦИЯ</div>
+              <button class="fake-nav active" data-section="Все проекты"><span>▦</span>Все проекты</button>
+              <button class="fake-nav" data-section="Фотографии"><span>◫</span>Фотографии</button>
+              <button class="fake-nav" data-section="Игры"><span>◈</span>Игры</button>
+              <button class="fake-nav" data-section="Приложения"><span>▣</span>Приложения</button>
+              <button class="fake-nav" data-section="Документы"><span>□</span>Документы</button>
+              <button class="fake-nav" data-section="Другое"><span>•••</span>Другое</button>
+              <div class="side-divider"></div>
+              <div class="side-caption">ДЕЙСТВИЯ</div>
+              <button class="fake-nav" data-action="add"><span>＋</span>Добавить проект</button>
+              <div class="storage-card"><div class="storage-title">Локальное хранилище</div><strong>C:</strong><div class="storage-bar"><span></span></div><small>240 ГБ / 475 ГБ</small></div>
+            </aside>
+
+            <section class="fake-main">
+              <div class="fake-main-head"><div><h3 id="fakeTitle">Все проекты</h3><p id="fakeSubtitle">Здесь собраны все ваши проекты в одном месте.</p></div><div class="fake-sort">По названию <span>⌄</span></div></div>
+              <div class="project-grid">
+                <article class="project-card active" tabindex="0"><div class="project-icon">◎</div><div><strong>Сайт Nexora</strong><span>Веб-проект</span><small>10.08.2026 · 14:30</small></div></article>
+                <article class="project-card" tabindex="0"><div class="project-icon cyan">◫</div><div><strong>Фотогалерея</strong><span>Фотографии</span><small>09.08.2026 · 18:22</small></div></article>
+                <article class="project-card" tabindex="0"><div class="project-icon blue">◈</div><div><strong>Космическая игра</strong><span>Игра</span><small>09.08.2026 · 11:05</small></div></article>
+                <article class="project-card" tabindex="0"><div class="project-icon violet">▣</div><div><strong>Nexora Tools</strong><span>Приложение</span><small>08.08.2026 · 20:15</small></div></article>
+                <article class="project-card" tabindex="0"><div class="project-icon cyan">▱</div><div><strong>Мои скриншоты</strong><span>Фотографии</span><small>08.08.2026 · 17:42</small></div></article>
+                <article class="project-card" tabindex="0"><div class="project-icon blue">✦</div><div><strong>RPG Project</strong><span>Игра</span><small>07.08.2026 · 21:33</small></div></article>
+              </div>
+            </section>
+
+            <aside class="fake-detail">
+              <div class="detail-cover">◎</div>
+              <h3>Сайт Nexora</h3>
+              <span class="detail-tag">Веб-проект</span>
+              <div class="detail-tabs"><button class="active">Общее</button><button>Настройки</button><button>История</button></div>
+              <div class="detail-rows">
+                <div><span>Расположение</span><b>C:\Projects\Nexora</b></div>
+                <div><span>Создан</span><b>10.08.2026</b></div>
+                <div><span>Статус</span><b class="online">● Активен</b></div>
+              </div>
+              <p class="detail-text">Официальный проект Nexora. Современное локальное приложение для управления вашими проектами.</p>
+              <a class="btn btn-primary full" href="#download">Открыть Nexora</a>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Возможности</div><h2>Привычно. Быстро. Красиво.</h2><p>Nexora создан для того, чтобы не мешать работе и при этом приятно выглядеть каждый день.</p></div>
+        <div class="features-grid">
+          <article class="feature reveal"><div class="feature-icon">▦</div><h3>Единая библиотека</h3><p>Все проекты собраны в одном интерфейсе вместо десятков папок и ярлыков.</p></article>
+          <article class="feature reveal delay-1"><div class="feature-icon">⌕</div><h3>Быстрый поиск</h3><p>Находи проекты по названию и сразу переходи к нужному действию.</p></article>
+          <article class="feature reveal delay-2"><div class="feature-icon">↗</div><h3>Запуск в один клик</h3><p>Игры и приложения запускаются напрямую из библиотеки Nexora.</p></article>
+          <article class="feature reveal"><div class="feature-icon">◫</div><h3>Свои обложки</h3><p>Добавляй собственные изображения и оформляй проекты так, как тебе нравится.</p></article>
+          <article class="feature reveal delay-1"><div class="feature-icon">⚙</div><h3>Расширенные настройки</h3><p>EXE, папки, HTML, браузер и другие параметры доступны в одном месте.</p></article>
+          <article class="feature reveal delay-2"><div class="feature-icon">◌</div><h3>Локальная работа</h3><p>Nexora рассчитан на работу с локальными данными без обязательного облака.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-card reveal">
+        <div><div class="eyebrow">О Nexora</div><h2>Твоё пространство для проектов.</h2></div>
+        <p>Nexora развивается как локальное desktop-приложение, объединяющее проекты, игры, приложения и другие материалы в одной аккуратной системе.</p>
+      </div>
+    </section>
+
+    <section class="download-section" id="download">
+      <div class="container">
+        <div class="download-card reveal">
+          <div><div class="eyebrow light">Скачать</div><h2>Nexora уже готова к работе.</h2><p>Положи установщик в папку <code>downloads</code> и кнопки сайта автоматически будут вести на него.</p></div>
+          <div class="download-actions"><a class="btn download-btn" href="./downloads/Nexora-Setup.exe" download>Скачать Nexora</a><span>Windows · .exe</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><div class="brand"><span class="brand-mark small">N</span>Nexora</div><span>© 2026 Nexora</span><a href="./downloads/Nexora-Setup.exe" download>Скачать</a></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
